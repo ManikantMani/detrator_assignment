@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/detpro1/static/css/main.e5a1c08a.css",
+    "main.js": "/detpro1/static/js/main.213823c7.js",
+    "static/media/logo.png": "/detpro1/static/media/logo.21b267c7023ca80db5c5.png",
+    "index.html": "/detpro1/index.html",
+    "main.e5a1c08a.css.map": "/detpro1/static/css/main.e5a1c08a.css.map",
+    "main.213823c7.js.map": "/detpro1/static/js/main.213823c7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e5a1c08a.css",
+    "static/js/main.213823c7.js"
+  ]
+}
