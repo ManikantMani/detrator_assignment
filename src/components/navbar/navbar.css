@@ -1,0 +1,51 @@
+.navbar__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25rem 7vw;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  border-bottom: solid 2px #fff;
+  background-color: rgb(0, 0, 15);
+  transition: 0.5s ease;
+}
+.colorChange_nav {
+    padding: 0.7rem 7vw;
+    box-shadow: rgba(255, 255, 255, 0.07) 0px 1px 2px, rgba(255, 255, 255, 0.07) 0px 2px 4px, rgba(255, 255, 255, 0.07) 0px 4px 8px, rgba(255, 255, 255, 0.07) 0px 8px 16px, rgba(255, 255, 255, 0.07) 0px 16px 32px, rgba(255, 255, 255, 0.07) 0px 32px 64px;
+}
+.navbar__container_left {
+  background-color: rgb(0, 0, 15);
+  display: flex;
+  align-items: center;
+}
+.navbar__container_left h2 {
+  margin-left: 0.5rem;
+  background-color: rgb(0, 0, 15);
+  color: #fff;
+}
+.brand__logo {
+  width: 4rem;
+  margin-right: 0.5rem;
+  background-color: rgb(0, 0, 15);
+}
+.navbar__container_right h2 {
+  background-color: rgb(0, 0, 15);
+  color: aqua;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .brand__logo {
+    overflow: hidden;
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

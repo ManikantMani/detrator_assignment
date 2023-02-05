@@ -1,0 +1,75 @@
+.postCard__container {
+    padding: 3rem 7rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+.postCard {
+    min-height: 30rem;
+    border: solid 1px rgb(109, 109, 109);
+    border-radius: 1rem;
+    padding: 2rem 1rem;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.postCard:hover {
+    border: solid 2px #fff;
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+}
+.postCard__top_section {
+    border-bottom: solid 2px #fff;
+    padding-bottom: 0.5rem;
+}
+.userPorfile {
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.userPorfile h1:nth-child(2) {
+    font-size: 1.2rem;
+}
+.postCard__body_section {
+    position: relative;
+    border-bottom: solid 2px #fff;
+    padding: 0.5rem 0.5rem;
+    min-height: 78%;
+}
+.postCard__body_section h4 {
+    color: aqua;
+    font-size: 1.3rem;
+    margin-top: 0.5rem;
+}
+.postCard__body_section p {
+    margin-top: 0.5rem;
+}
+.postCard__body_tags, .postCard__body_tags p {
+    color: aqua;
+    display: flex;
+    position: sticky;
+    bottom: 0;
+    left: 0;
+}
+.postCard__body_tags p {
+    margin: 0 0.5rem;
+}
+.postCard__footer_section h1 {
+    font-size: 1.5rem;
+    color: aqua;
+}
+
+@media screen and (max-width: 992px) {
+    .postCard__container {
+        padding: 2rem 5rem;
+        gap: 1.5rem;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .postCard__container {
+        padding: 1rem 2.5rem;
+        gap: 1.5rem;
+        grid-template-columns: 1fr;
+    }
+}
